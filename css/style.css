@@ -1,16 +1,21 @@
 /* Navbar */
 .navbar {
+    
     padding: 2rem;
-    background-color: #f5f6f7;
+    background-color: #fefefe;
+ 
 }
 
 .navbar-nav {
+    
     align-items: center;
 }
 
 .navbar-collapse {
+    background-color: rgb(255, 254, 254);
     align-items: center;
     justify-content: space-between;
+    
 }
 
 /* MyClass */
@@ -21,6 +26,8 @@
 }
 
 .myclass-main {
+  
+   
     padding: 3rem;
 }
 
@@ -30,6 +37,7 @@
 }
 
 .myclass-pic {
+    
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -38,10 +46,11 @@
 
 /* Others */
 section {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
 }
 
 h1 {
@@ -51,7 +60,9 @@ h1 {
 /* Responsive */
 
 @media screen and (max-width: 767px) {
+    
     .navbar-brand {
+        
         display: none;
     }
     
