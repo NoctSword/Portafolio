@@ -20,6 +20,7 @@
 
 /* MyClass */
 .myclass {
+    
     background-color: #f5f6f7;
     min-height: 450px;
     text-align: center;
@@ -46,7 +47,6 @@
 
 /* Others */
 section {
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,3 +67,20 @@ h1 {
     }
     
 }
+/* Establecer la imagen de fondo *
+background-image: url('./images/fondo.jpg');
+/* Ajustar la imagen para cubrir todo el fondo 
+background-size: cover;
+/* Centrar la imagen en el fondo *
+background-position: center;
+/* No repetir la imagen 
+background-repeat: no-repeat;
+/* Establecer un color de fondo como respaldo en caso de que la imagen no cargue o no cubra todo el fondo 
+background-color: #cccccc; /* Puedes ajustar el color según tus preferencias 
+/* Asegurarse de que el contenido no se extienda más allá del ancho de la ventana gráfica 
+max-width: 100%;
+/* Eliminar el margen predeterminado del body 
+margin: 0;
+/* Establecer una altura mínima para asegurar que el contenido sea visible 
+min-height: 100vh;
+/* Alinear el contenido al centro vertical y horizontalmente */
