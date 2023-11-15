@@ -1,34 +1,28 @@
 /* Navbar */
 .navbar {
-    
     padding: 2rem;
-    background-color: #fefefe;
- 
-}
-
-.navbar-nav {
+    color: #ffffff;
+    background-color: #ffffff;
     
+}
+.navbar-nav {
     align-items: center;
 }
 
 .navbar-collapse {
-    background-color: rgb(255, 254, 254);
     align-items: center;
     justify-content: space-between;
-    
 }
 
 /* MyClass */
 .myclass {
-    
     background-color: #f5f6f7;
     min-height: 450px;
     text-align: center;
+
 }
 
 .myclass-main {
-  
-   
     padding: 3rem;
 }
 
@@ -38,11 +32,73 @@
 }
 
 .myclass-pic {
-    
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin: 20px;
+}
+
+
+.about-me {
+    height: 500px;
+    padding: 10px;
+}
+
+.section-oscura {
+    color: white;
+    background-color: #1b1b32;    
+}
+
+.about-me .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+
+.experiencia {
+    padding: 40px;
+}
+
+.experiencia-columna:hover {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.experiencia-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.experiencia i {
+    font-size: 2.5rem;
+    color: yellowgreen;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 25%;
+}
+
+.section-clara {
+    color: black;
+    background-color: white;
+}
+
+.badge-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;
 }
 
 /* Others */
@@ -50,7 +106,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
 }
 
 h1 {
@@ -60,27 +116,14 @@ h1 {
 /* Responsive */
 
 @media screen and (max-width: 767px) {
-    
     .navbar-brand {
-        
         display: none;
     }
     
 }
-/* Establecer la imagen de fondo *
-background-image: url('./images/fondo.jpg');
-/* Ajustar la imagen para cubrir todo el fondo 
-background-size: cover;
-/* Centrar la imagen en el fondo *
-background-position: center;
-/* No repetir la imagen 
-background-repeat: no-repeat;
-/* Establecer un color de fondo como respaldo en caso de que la imagen no cargue o no cubra todo el fondo 
-background-color: #cccccc; /* Puedes ajustar el color según tus preferencias 
-/* Asegurarse de que el contenido no se extienda más allá del ancho de la ventana gráfica 
-max-width: 100%;
-/* Eliminar el margen predeterminado del body 
-margin: 0;
-/* Establecer una altura mínima para asegurar que el contenido sea visible 
-min-height: 100vh;
-/* Alinear el contenido al centro vertical y horizontalmente */
+
+@media screen and (max-width: 700px) {
+    .myclass-imagen {
+        max-width: 600px;
+    }
+}

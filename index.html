@@ -11,8 +11,11 @@
     <title>MI PORTAFOLIO</title>
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./images/pestaña.png">
+    <link href="./icons/bootstrap-icons.css" rel="stylesheet">
     <!-- Bootstrap CSS online -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+     <!-- Bootstrap Icons online -->
+     <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"> no funciono el link opte por offline-->
     <!-- My CSS -->
     <link href="./css/style.css" rel="stylesheet">
 </head>
@@ -51,13 +54,74 @@
        
         <div class="myclass-main d-flex flex-column justify-content-center aling-items-center">
             <img class="myclass-pic rounded-circle" src="./images/logo.png" alt="My selfie">
+        </div>
+        <div class ="container">
             <h1>Hola soy HERNAN</h1>
-            <h2>Aqui es donde el heroe</h2>
-            <h3>Comienza su viaje</h3>
+            <h2>Aqui es donde el heroe comienza su viaje</h2>
+        </div>
+        <div class="myclass-label">            
+            <img class="myclass-imagen img-fluid" src="./images/fondo.jpg" alt="think twice code once">
         </div>
        
     </section>
-    
+      <!-- About me -->
+      <section class="about-me section-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo">Conoce a Hernan</h2>
+            <p class="seccion-texto">
+                Soy estudiante de la licenciatura de informatica en la universidad del mar amante de los videojuegos y de los restos que inmpone este bonito arte que es programar.
+            </p>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia section-clara">
+        <div class="container text-center">
+            <div class="row">
+                <!-- Programming -->
+                <div class="experiencia-columna col-12 col-md-4">                    
+                    <p class="columna experiencia-title">Programacion</p>                    
+                    <i class="bi-braces"></i>
+                    <p>
+                        A lo largo de mi formacion academica y expereciencia semilaboral tengo distintos conocimientos en lenguajes de programacion. 
+                    </p>
+                    <div class="badge-contenedor">                        
+                        <span class="badge bg-primary">PHP</span>
+                        <span class="badge bg-primary">C</span>
+                        <span class="badge bg-primary">Java</span>
+                        <span class="badge bg-primary">Python</span>                           
+                    </div>
+                </div>
+                <!-- Design -->
+                <div class="experiencia-columna col-12 col-md-4">                    
+                    <p class="columna experiencia-title">Diseño</p>
+                    <i class="bi-window-desktop"></i>
+                    <p>
+                        Como programador tambien tengo un poco de conocimiento en el lado front, tanto en interfaz de usuario como diseño en imagenes. 
+                    </p>
+                    <div class="badge-contenedor">                        
+                        <span class="badge bg-primary">UX</span>                        
+                        <span class="badge bg-primary">Usability</span>
+                        <span class="badge bg-primary">UI</span>
+                        <span class="badge bg-primary">Potoshop</span>                        
+                    </div>
+                </div>
+                <!-- Management -->
+                <div class="experiencia-columna col-12 col-md-4">
+                    <p class="columna experiencia-title">Gestion</p>
+                    <i class="bi-person-gear"></i>
+                    <p>
+                        Como programador tengo un poco de conocimeinto en el area de gestion siendo este un poco mi punto debil. 
+                    </p>
+                    <div class="badge-contenedor">                        
+                        <span class="badge bg-primary">Scrum</span>                        
+                        <span class="badge bg-primary">Trello</span>
+                        <span class="badge bg-primary">MVC</span>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
    
     <!-- Bootstrap JS online -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
